@@ -104,3 +104,43 @@
 
   max-width: 792px;
 }
+
+.numeros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+
+  margin-bottom: 6rem;
+}
+
+.numeros .article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.status {
+  color: #8E2424;
+  font-weight: 600;
+  font-size: 3.75rem;
+}
+
+.status__title {
+  margin: 12px 0 8px 0;
+  font-size: 1.125rem;
+  color: #101828;
+
+  font-weight: 500;
+}
+
+.status__descricao {
+  font-size: 1rem;
+
+  color: #667085;
+}
+
+.article {
+  max-width: 280px;
+}
