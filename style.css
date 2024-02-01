@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.125rem 7rem;
+
+  font-weight: 500;
+}
+
+.logo_paginas {
+  display: flex;
+  align-items: center;
+
+  gap: 7.4375rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.logo p {
+  font-size: 1.125rem;
+
+  color: #3a404e;
+}
+
+.lista_paginas {
+  list-style: none;
+
+  display: flex;
+  gap: 2rem;
+
+  font-size: 1rem;
+
+  color: #667085;
+}
+
+.botoes {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.btn {
+  font-size: 1rem;
+  color: #667085;
+
+  padding: 0.65rem 1.125rem;
+
+  border: none;
+}
+
+.simples {
+  background: transparent;
+}
+
+.bg {
+  background-color: #8e2424;
+  color: #ffffff;
+
+  border-radius: 0.5rem;
+}
