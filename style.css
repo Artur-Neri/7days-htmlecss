@@ -144,3 +144,94 @@
 .article {
   max-width: 280px;
 }
+
+.vagas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  padding: 6rem 5rem;
+}
+
+.talentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4rem;
+}
+
+.talentos__text {
+  text-align: center;
+}
+
+.tag {
+  font-weight: 500;
+  font-size: 0.875rem;
+
+  padding: 0.25rem 0.75rem;
+
+  background-color: #8E24240D;
+  color: #8E2424;
+  width: fit-content;
+  margin: 0 auto;
+
+  border-radius: 1rem;
+}
+
+.talentos__title {
+  margin: 1rem auto 1.25rem auto;
+}
+
+.vagas__abertas {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4rem;
+}
+
+.vagas__abertas-categoria {
+  width: 768px;
+}
+
+.categoria__titulo {
+  font-weight: 500;
+  font-size: 1.25rem;
+
+  margin-bottom: 2rem;
+
+  color: #101828;
+}
+
+.vagas__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.vaga {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  border: 1px solid #EAECF0;
+  border-radius: 1rem;
+}
+
+.vaga__nome {
+  font-size: 1.125rem;
+  font-weight: 500; 
+
+  color: #101828;
+}
+
+.vaga__info {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1rem;
+  color: #667085;
+}
