@@ -235,3 +235,79 @@
   font-size: 1rem;
   color: #667085;
 }
+
+.depoimentos {
+  margin: 0 80px 96px 80px;
+  padding: 0 2rem 0 2rem;
+  background-color  : #C3191908;
+}
+
+.depoimentos__cabecalho {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.depoimentos__titulo {
+  color: #8E2424;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.depoimentos__depoimento {
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: -2%;
+
+  color: #101828;
+
+}
+
+.depoimentos__wraper {
+  padding: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+.depoimentos__autor {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+
+.depoimentos__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .25rem;
+}
+
+.depoimentos__foto{
+  display: block;
+  text-align: center;
+}
+
+.depoimentos__nome {
+  font-weight: 500;
+  color: #101828;
+}
+
+.depoimentos__ocupacao {
+  color: #667085;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
