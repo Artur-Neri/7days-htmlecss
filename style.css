@@ -88,7 +88,7 @@
 .cabecalho h3 {
   font-size: 1rem;
 
-  color: #8E2424;
+  color: #8e2424;
 }
 
 .cabecalho h1 {
@@ -122,7 +122,7 @@
 }
 
 .status {
-  color: #8E2424;
+  color: #8e2424;
   font-weight: 600;
   font-size: 3.75rem;
 }
@@ -152,7 +152,8 @@
   align-items: center;
   gap: 4rem;
 
-  padding: 6rem 5rem;
+  margin: 6rem 5rem;
+  padding: 2rem;
 }
 
 .talentos {
@@ -168,14 +169,19 @@
   text-align: center;
 }
 
+.talentos__img img {
+  width: 100%;
+  min-width: 300px;
+}
+
 .tag {
   font-weight: 500;
   font-size: 0.875rem;
 
   padding: 0.25rem 0.75rem;
 
-  background-color: #8E24240D;
-  color: #8E2424;
+  background-color: #8e24240d;
+  color: #8e2424;
   width: fit-content;
   margin: 0 auto;
 
@@ -218,13 +224,13 @@
   flex-direction: column;
   gap: 2rem;
 
-  border: 1px solid #EAECF0;
+  border: 1px solid #eaecf0;
   border-radius: 1rem;
 }
 
 .vaga__nome {
   font-size: 1.125rem;
-  font-weight: 500; 
+  font-weight: 500;
 
   color: #101828;
 }
@@ -239,7 +245,7 @@
 .depoimentos {
   margin: 0 80px 96px 80px;
   padding: 0 2rem 0 2rem;
-  background-color  : #C3191908;
+  background-color: #c3191908;
 }
 
 .depoimentos__cabecalho {
@@ -251,7 +257,7 @@
 }
 
 .depoimentos__titulo {
-  color: #8E2424;
+  color: #8e2424;
   font-weight: 600;
   font-size: 0.875rem;
 }
@@ -263,7 +269,6 @@
   letter-spacing: -2%;
 
   color: #101828;
-
 }
 
 .depoimentos__wraper {
@@ -274,7 +279,6 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-
 }
 
 .depoimentos__autor {
@@ -287,16 +291,14 @@
   gap: 1rem;
 }
 
-
-
 .depoimentos__info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .25rem;
+  gap: 0.25rem;
 }
 
-.depoimentos__foto{
+.depoimentos__foto {
   display: block;
   text-align: center;
 }
@@ -310,4 +312,84 @@
   color: #667085;
   font-weight: 400;
   font-size: 0.875rem;
+}
+
+.formulario {
+  background-color: #F9FAFB;
+  padding-top: 6rem;
+}
+
+.formulario__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2.5rem;
+  margin: 0 5rem 0 5rem;
+  padding: 0 2rem;
+}
+
+.formulario__cabecalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.25rem;
+}
+
+.formulario__titulo {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: -2%;
+
+  text-align: center;
+
+  color: #101828;
+}
+
+.formulario__descricao {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #667085;
+}
+
+.formulario__inputs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.campo__email {
+  padding: 0.75rem 1rem;
+  outline: #d0d5dd;
+  border: 1px solid #d0d5dd;
+  border-radius: 0.5rem;
+}
+
+.campo__email::placeholder {
+  color: #667085;
+}
+
+.form__btn {
+  color: #ffffff;
+  background-color: #8e2424;
+  padding: .75rem 1.25rem;
+  border: none;
+  border-radius: .5rem;
+}
+
+footer {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #98A2B3;
+    background-color: #F9FAFB;
+
+  text-align: center;
+}
+
+footer p {
+  padding: 3rem 0 6rem 0;
 }
